@@ -6,4 +6,4 @@ Projeto em react desenvolido para aplicar conhecimentos em Context.
 ## 🚀 Tecnologias
 - React - Biblioteca web
 - Typescript - Superset do Javascript
-- Vite - 
+- Vite - Bundler e dev-server
