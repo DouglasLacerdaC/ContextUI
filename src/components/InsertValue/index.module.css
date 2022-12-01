@@ -1,0 +1,51 @@
+.insertValue {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.insertValue input {
+    width: 500px;
+    padding: 15px 25px;
+    background-color: transparent;
+    border: 1px solid #ffffff40;
+    border-radius: 10px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    transition: 200ms;
+}
+
+.insertValue input:focus {
+    border-color: #ffffff;
+}
+
+.insertValue button {
+    background-color: #f274d0;
+    padding: 15px 25px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    transition: 200ms;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.insertValue button:hover {
+    box-shadow: 0px 0px 30px #f274d0;
+    transform: scale(0.9);
+}
+
+.insertValue p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.insertValue p span {
+    color: #f274d0;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.insertValue p span:hover {
+    color: #a00b4a;
+}
