@@ -45,4 +45,4 @@ Antes de começar você vai precisar ter instalado na sua máquina as ferramenta
 
 <br />
 
-<p align="center">Desenvolvido por <a href=“https://www.linkedin.com/in/douglas-lacerda-da-conceicao/“>Douglas Lacerda</a></p>
+Desenvolvido por [Douglas Lacerda](https://www.linkedin.com/in/douglas-lacerda-da-conceicao/)
