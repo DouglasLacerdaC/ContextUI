@@ -2,13 +2,17 @@
     position: absolute;
     width: 350px;
     background-color: #f274d0;
-    left: calc(50vw - 150px);
+    left: calc(50vw - 175px);
     top: 5vh;
     padding: 20px;
     border-radius: 10px;
     color: #ffffff;
     transition: 300ms;
     z-index: 1000;
+}
+
+.modal h4 {
+    margin-bottom: 10px;
 }
 
 .modalIsOpen {

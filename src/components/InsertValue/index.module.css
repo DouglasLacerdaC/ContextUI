@@ -49,3 +49,14 @@
 .insertValue p span:hover {
     color: #a00b4a;
 }
+
+@media (width <= 900px) {
+    
+    .insertValue input {
+        width: 100%; 
+    }
+
+    .insertValue {
+        width: 100%;
+    }
+}

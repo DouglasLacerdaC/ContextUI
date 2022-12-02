@@ -30,9 +30,9 @@ export default function InsertValue() {
                 <input type="text" className="input" placeholder='Digite o nome' onChange={(e) => setNewName(e.target.value)} />
                 <input type="text" className="input" placeholder='Digite a idade' onChange={(e) => setNewAge(e.target.value)} />
                 
-                <p>Abrir modal <span onClick={() => modalContext?.setModalIsOpen(!modalContext.modalIsOpen)}>modal</span></p>
+                <p>Não estou entendendo o que fazer <span onClick={() => modalContext?.setModalIsOpen(!modalContext.modalIsOpen)}>aqui</span></p>
                 
-                <button onClick={() => alterPersonValue()}>Inserir usuário</button>
+                <button onClick={() => alterPersonValue()}>Mostrar usuário</button>
             
             </div>
         </>
