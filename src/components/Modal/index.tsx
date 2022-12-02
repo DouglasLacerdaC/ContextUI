@@ -1,10 +1,10 @@
 import { useContext } from 'react'
-import { PersonContext } from '../../contexts/PersonContext'
+import { ModalContext } from '../../contexts/ModalContext'
 import style from './index.module.css'
 
 export default function Home() {
 
-    const modal = useContext(PersonContext)
+    const modal = useContext(ModalContext)
 
     return (
         <>

@@ -1,4 +1,5 @@
 import { useContext, useState } from 'react'
+import { ModalContext } from '../../contexts/ModalContext'
 import { PersonContext } from '../../contexts/PersonContext'
 import style from './index.module.css'
 
@@ -8,6 +9,7 @@ export default function InsertValue() {
     const [ newAge, setNewAge ] = useState<string>('')
 
     const personContext = useContext(PersonContext)
+    const modalContext = useContext(ModalContext)
 
     function alterPersonValue() {
         
@@ -28,7 +30,7 @@ export default function InsertValue() {
                 <input type="text" className="input" placeholder='Digite o nome' onChange={(e) => setNewName(e.target.value)} />
                 <input type="text" className="input" placeholder='Digite a idade' onChange={(e) => setNewAge(e.target.value)} />
                 
-                <p>Abrir modal <span onClick={() => personContext?.setModalIsOpen(!personContext.modalIsOpen)}>modal</span></p>
+                <p>Abrir modal <span onClick={() => modalContext?.setModalIsOpen(!modalContext.modalIsOpen)}>modal</span></p>
                 
                 <button onClick={() => alterPersonValue()}>Inserir usuário</button>
             
