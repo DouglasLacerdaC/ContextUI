@@ -8,12 +8,18 @@ Projeto em react desenvolvido para aplicar conhecimentos em Context
 - ✔️ Typescript - Superset do Javascript
 - ✔️ Vite - Bundler e dev-server
 
+<br />
+
 ## 💄 Recursos utilizados
 - ✔️ Big Heads Avatar - <https://bigheads.io/>
 - ✔️ Swiper Lib - <https://swiperjs.com/>
 
+<br />
+
 ## 📦️ Pré-Requisitos
-Antes de começar você vai precisar ter instalado na sua máquina as ferramentas <a href=“https://git-scm.com/“>Git</a> e <a href=“https://nodejs.org/en/download/“>Node</a>.
+Antes de começar você vai precisar ter instalado na sua máquina as ferramentas [Git](https://git-scm.com/) [Node](https://nodejs.org/en/download/).
+
+<br />
 
 ## Executando o projeto
 1. Clone o repositório
