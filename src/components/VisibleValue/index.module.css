@@ -1,6 +1,9 @@
+.containerAvatar {
+    transform: translateY(-40px);
+}
+
 .infoUser {
     text-align: center;
-    transform: translateY(-40px);
 }
 
 .infoUser img {
@@ -9,6 +12,10 @@
     object-fit: cover;
     border-radius: 50%;
     user-select: none;
+}
+
+.infoUser .user p {
+    color: #ffffff70;
 }
 
 .notUser {

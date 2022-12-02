@@ -16,7 +16,7 @@ export default function VisibleValue() {
     return (
         <>
             {name && description ?
-                <div>
+                <div className={style.containerAvatar}>
                     <div className={style.infoUser}>
 
                         <img src={img} alt="" />
