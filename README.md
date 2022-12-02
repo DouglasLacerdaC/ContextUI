@@ -17,7 +17,7 @@ Projeto em react desenvolvido para aplicar conhecimentos em Context
 <br />
 
 ## 📦️ Pré-Requisitos
-Antes de começar você vai precisar ter instalado na sua máquina as ferramentas [Git](https://git-scm.com/) [Node](https://nodejs.org/en/download/).
+Antes de começar você vai precisar ter instalado na sua máquina as ferramentas [Git](https://git-scm.com/) e [Node](https://nodejs.org/en/download/).
 
 <br />
 
@@ -45,4 +45,4 @@ Antes de começar você vai precisar ter instalado na sua máquina as ferramenta
 
 <br />
 
-<p align="center">Desenvolvido por <a href=“https://git-scm.com/“>Douglas Lacerda</a></p>
+<p align="center">Desenvolvido por [Douglas Lacerda](https://www.linkedin.com/in/douglas-lacerda-da-conceicao/)</p>
