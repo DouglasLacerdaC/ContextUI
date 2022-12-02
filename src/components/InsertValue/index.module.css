@@ -20,7 +20,7 @@
 }
 
 .insertValue button {
-    background-color: #f274d0;
+    background-color: #85c5e5;
     padding: 15px 25px;
     border: 1px solid transparent;
     border-radius: 10px;
@@ -31,7 +31,7 @@
 }
 
 .insertValue button:hover {
-    box-shadow: 0px 0px 30px #f274d0;
+    box-shadow: 0px 0px 30px #85c5e5;
     transform: scale(0.9);
 }
 
@@ -41,7 +41,7 @@
 }
 
 .insertValue p span {
-    color: #f274d0;
+    color: #85c5e5;
     cursor: pointer;
     transition: 200ms;
 }

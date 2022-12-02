@@ -12,7 +12,8 @@ export default function PersonProvider({ children }: any) {
 
     const [dataUser, setDataUser] = useState<user>({
         name: '',
-        age: ''
+        description: '',
+        img: '/src/assets/imgs/avatars/av1.svg'
     })
     
     return (

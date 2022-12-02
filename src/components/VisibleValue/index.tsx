@@ -1,42 +1,35 @@
 import { useContext } from 'react'
 import { PersonContext } from '../../contexts/PersonContext'
 
-import { Swiper, SwiperSlide } from 'swiper/react'
+import Slider from '../Slider';
 
 import style from './index.module.css'
-import 'swiper/css';
 
 export default function VisibleValue() {
 
-    const user = useContext(PersonContext)?.dataUser.name
-    const age = useContext(PersonContext)?.dataUser.age
+    const DataUserWithPersonContext = useContext(PersonContext)?.dataUser
+
+    const name = DataUserWithPersonContext?.name
+    const description = DataUserWithPersonContext?.description
+    const img = DataUserWithPersonContext?.img
 
     return (
         <>
-            {user && age ?
+            {name && description ?
                 <div>
                     <div className={style.infoUser}>
 
-                        <img src="https://i.pinimg.com/564x/ac/12/95/ac129579e89fc674957275f35c003586.jpg" alt="" />
+                        <img src={img} alt="" />
 
-                        <h2>{user}</h2>
-                        <p>{age}</p>
+                        <div className={style.user}>
+                            <h2>{name}</h2>
+                            <p>{description}</p>
+                        </div>
 
                     </div>
 
-                    <div>
-                        <Swiper
-                            spaceBetween={5}
-                            slidesPerView={3}
-                            onSlideChange={() => console.log('slide change')}
-                            onSwiper={(swiper) => console.log(swiper)}
-                        >
-                            <SwiperSlide>Slide 1</SwiperSlide>
-                            <SwiperSlide>Slide 2</SwiperSlide>
-                            <SwiperSlide>Slide 3</SwiperSlide>
-                            <SwiperSlide>Slide 4</SwiperSlide>
-                        </Swiper>
-                    </div>
+                    <Slider />
+
                 </div>
                 :
 

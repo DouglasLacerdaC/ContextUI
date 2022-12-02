@@ -6,16 +6,16 @@ import style from './index.module.css'
 export default function InsertValue() {
     
     const [ newName, setNewName ] = useState<string>('')
-    const [ newAge, setNewAge ] = useState<string>('')
+    const [ newDescription, setNewDescription ] = useState<string>('')
 
     const personContext = useContext(PersonContext)
     const modalContext = useContext(ModalContext)
 
     function alterPersonValue() {
         
-        personContext?.setDataUser({
+        personContext?.setDataUser({...personContext.dataUser,
             name: newName,
-            age: newAge
+            description: newDescription,
         })
 
     }
@@ -28,7 +28,7 @@ export default function InsertValue() {
                 <h1>Context UI</h1>
                 
                 <input type="text" className="input" placeholder='Digite o nome' onChange={(e) => setNewName(e.target.value)} />
-                <input type="text" className="input" placeholder='Digite a idade' onChange={(e) => setNewAge(e.target.value)} />
+                <input type="text" className="input" placeholder='Digite a descrição' onChange={(e) => setNewDescription(e.target.value)} />
                 
                 <p>Não estou entendendo o que fazer <span onClick={() => modalContext?.setModalIsOpen(!modalContext.modalIsOpen)}>aqui</span></p>
                 
